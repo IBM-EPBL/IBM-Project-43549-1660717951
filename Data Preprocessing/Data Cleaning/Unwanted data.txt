@@ -1,0 +1,21 @@
+Data : Name, company, Year, Price, kms_driven and fuel_type
+Name :
+    >>Take only first 3 words in the name
+
+year :
+    >>Remove non-year values
+    >>Change datatype from "object" to "int"
+
+Price :
+    >>Remove "Ask for Price" in "Price"
+    >>Remove "," from "Price"
+    >>Change datatype from 'object' to 'int'
+
+kms_driven :
+    >>Remove "nan" from "kms_driven"
+    >>Remove "kms" from "kms_driven"
+    >>Remove "," from "kms_driven"
+    >>Change Datatype from "Object" to "int"
+
+fuel_type :
+    >>Remove "nan" from "fuel_type"
